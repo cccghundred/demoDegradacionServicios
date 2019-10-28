@@ -6,7 +6,6 @@ using System.Web.Mvc;
 
 namespace mvc.Controllers
 {
-    //[SessionState(System.Web.SessionState.SessionStateBehavior.Required)]
     public class BaseController : Controller
     {
         protected override void OnActionExecuting(ActionExecutingContext filterContext)

@@ -39,14 +39,7 @@ namespace mvc.Controllers
         [HttpGet]
         public async Task<JsonResult> accion2()
         {
-            System.Threading.Thread.Sleep(3000);
-            return Json(new { esteLibroEstaPrestado = false }, JsonRequestBehavior.AllowGet);
-        }
-
-        [HttpGet]
-        public async Task<JsonResult> accion3()
-        {
-            System.Threading.Thread.Sleep(3000);
+            System.Threading.Thread.Sleep(2000);
             return Json(new { esteLibroEstaPrestado = false }, JsonRequestBehavior.AllowGet);
         }
     }
